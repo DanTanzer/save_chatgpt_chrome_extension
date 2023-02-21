@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Save ChatGPT Conversation",
+  "description": "This extension saves the content of a ChatGPT conversation in an HTML file.",
+  "version": "1.0",
+  "author": {
+    "name": "Dan Tanzer",
+    "email": "dantanzer@zerama.net"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": {
+      "19": "icon.png",
+      "38": "icon.png"
+    },
+    "default_title": "Save ChatGPT Conversation",
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://chat.openai.com/chat/*"
+  ]
+}
