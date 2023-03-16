@@ -20,8 +20,8 @@ To install the extension, follow these steps:
 To use the extension, select a chat you wish do convert to html,  click the extension icon in the top right corner of your browser window. This will open the extension popup, where you can save the chat as html that you wish to share.
 
 ## Background
+[### _Programming with ChatGPT - Human still required!_](#background)
 
-### _Programming with ChatGPT - Human still required!_
 
 This article is about my experiences using ChatGPT, an AI language model developed by OpenAI. As a developer, I collaborated with ChatGPT to program a Chrome extension, which turned out to be both challenging and rewarding. Through this experience, I learned a lot about working with AI language models and how powerful they can be. If you would like to see the actual chat session that created the extension, [click here](https://htmlpreview.github.io/?https://github.com/DanTanzer/save_chatgpt_chrome_extension/blob/main/theChat.html).
 
